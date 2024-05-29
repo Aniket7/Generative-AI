@@ -1,0 +1,13 @@
+{
+	"model_name":"mistral-7b-openorca.Q4_k_m.gguf",
+	"context_length":16000,
+	"max_new_tokens":8000,
+	"seed":42,
+	"temperature":0,
+	"repetition_penalty":1.1,
+	"stop":["<|im_end|>"],
+	"top_k":0,
+	"top_p":0,
+	"template":"<|im_start|> system\n I carefully provide accurate, factual, thoughtful answers and I am brilliant at reasoning. \nI am an assistant who thinks through their answers step-by-step to be sure I always get the right answer. \nI always explain the bacground context, assumptions and thinking before trying to answer a question. \nPlease generate clear and concise text. \n<|im_end|>\n<|im_start|>user\n{question}<|im_end|>\n<|im_start|>assistant"
+	
+}
