@@ -1,0 +1,2 @@
+# install packegaes
+!pip install langchain transformers sentense-transformers torch datasets faiss-cpu langchain-community langchainhub
