@@ -1,1 +1,1 @@
-
+It guides step by step how-to-build-Tokenizer-from-scratch using python.
